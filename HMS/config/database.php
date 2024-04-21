@@ -92,8 +92,22 @@ return [
             // 'encrypt' => env('DB_ENCRYPT', 'yes'),
             // 'trust_server_certificate' => env('DB_TRUST_SERVER_CERTIFICATE', 'false'),
         ],
+        'mongodb' => [
+            'driver'   => 'mongodb',
+            'host'     => env('DB_HOST', 'localhost'),
+            'port'     => env('DB_PORT', 27017),
+            'database' => env('DB_DATABASE', 'your_database'),
+            'username' => env('DB_USERNAME', 'your_username'),
+            'password' => env('DB_PASSWORD', 'your_password'),
+            'options'  => [
+                'database' => 'admin' // sets the authentication database required by mongo 3
+            ]
+        ],
+
+
 
     ],
+
 
     /*
     |--------------------------------------------------------------------------

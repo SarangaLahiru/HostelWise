@@ -1,0 +1,12 @@
+
+  .my-custom-modal-class .swal2-confirm {
+    background-color: #ff7b00;
+    color: #ffffff;
+    border-color: white;
+  }
+  .swal2-popup {
+    /* Add styles for the entire SweetAlert2 modal */
+    background-color: #1c4cac; /* Change modal background color */
+    border-color: #f7f8f9; /* Change modal border color */
+    /* Add any other desired styles */
+  }

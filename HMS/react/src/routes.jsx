@@ -1,10 +1,11 @@
 import { Navigate, createBrowserRouter } from "react-router-dom";
 import DefaultLayout from "./components/DefaultLayout";
 import User from "./views/user";
-import Admin from "./views/admin";
 import GuestLayout from "./components/GuestLayout";
 import Login from "./views/login";
 import Register from "./views/register";
+import AdminLayout from "./components/AdminLayout";
+import Admin from "./views/admin";
 
 const router=createBrowserRouter([
     {
@@ -19,10 +20,7 @@ const router=createBrowserRouter([
                 path: '/user',
                 element: <User/>
             },
-            {
-                path: '/admin',
-                element: <Admin/>
-            },
+
         ]
 
     },
@@ -41,6 +39,23 @@ const router=createBrowserRouter([
 
         ]
 
-    }
+    },
+    {
+        path:'/',
+        element:<AdminLayout/>,
+        children:[
+            {
+                path: '/admin',
+                element: < Admin/>
+            },
+            {
+                path: '/register',
+                element: <Register/>
+            },
+
+        ]
+
+    },
+
 ])
 export default router;

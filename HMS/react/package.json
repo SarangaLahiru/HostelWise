@@ -16,11 +16,13 @@
     "@mui/icons-material": "^5.15.15",
     "@mui/material": "^5.15.15",
     "aos": "^2.3.4",
+    "axios": "^1.6.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-fade-in": "^2.0.1",
     "react-router-dom": "^6.22.3",
-    "react-toastify": "^10.0.5"
+    "react-toastify": "^10.0.5",
+    "sweetalert2": "^11.10.8"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

@@ -17,6 +17,7 @@ export default function Home() {
         <img src={hmsimg} alt="HMS Image"/>
 
         <h2>Sara How are you</h2>
+        <h3>nimesh</h3>
 
 
     </div>

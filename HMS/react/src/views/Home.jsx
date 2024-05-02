@@ -1,13 +1,14 @@
-import React from 'react'
-import './home.css'
-import hmsimg from '../assets/hmsimg.png';
+import React from 'react';
+import './home.css';
+import Header from '../components/Header/header';
+
 
 export default function Home() {
   return (
-    <div>
-
-        <h2>home</h2>
-        <img src={hmsimg} alt="HMS Image"/>
-    </div>
-  )
+   <>
+   <Header/>
+   <h1>home</h1>
+   
+   </>
+  );
 }

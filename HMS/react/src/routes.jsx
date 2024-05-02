@@ -6,6 +6,7 @@ import Login from "./views/login";
 import Register from "./views/register";
 import AdminLayout from "./components/AdminLayout";
 import Admin from "./views/admin";
+import Home from "./views/Home";
 
 const router=createBrowserRouter([
     {
@@ -19,6 +20,10 @@ const router=createBrowserRouter([
             {
                 path: '/user',
                 element: <User/>
+            },
+            {
+                path: '/home',
+                element: <Home/>
             },
 
         ]

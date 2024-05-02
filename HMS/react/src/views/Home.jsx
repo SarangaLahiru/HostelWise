@@ -13,7 +13,7 @@ export default function Home() {
         <h2>home</h2>
         <img src={hmsimg} alt="HMS Image"/>
 
-        <h2>sara</h2>
+        <h2>Sara How are you</h2>
 
     </div>
   )

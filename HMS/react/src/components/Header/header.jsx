@@ -10,16 +10,19 @@ export default function Header() {
         <img src={hmsimg} alt="HMS Image"/>
         <div className='box'>
             <li>
-                Home
+                Dashboard
             </li>
             <li>
-                Home
+                Rooms
             </li>
             <li>
-                Home
+                Attendance
             </li>
             <li>
-                Home
+                Accounts
+            </li>
+            <li>
+                Maintainance
             </li>
         </div>
       </div>

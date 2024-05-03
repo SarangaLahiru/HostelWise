@@ -3,5 +3,6 @@ body {
     background-color: rgb(33, 33, 33);
     height: 100vh; 
   }
-  
-
+  .left-nav li{
+    margin: 50px;
+  }

@@ -61,11 +61,9 @@ export default function Header() {
     </ul>
         </div>
       </div>
-      
-      <div className='left-bar'>
      
-
+     
       </div>
-    </div>
+    
   );
 }

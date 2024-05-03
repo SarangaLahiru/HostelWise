@@ -20,7 +20,7 @@ body {
   }
   .image-container img{
     position: relative;
-    left: 30px;
+    left: 25px;
   }
   .image-container .box{
     display: flex;
@@ -35,4 +35,22 @@ body {
     top: 150px;
     left: 10px;
     z-index: 1000; 
+  }
+  .nav-list {
+    display: flex;
+  }
+  .nav-list li{
+    margin-left: 50px;
+  }
+  .calendar{
+    width: 30px;
+  height: 30px;
+  }
+  .notification{
+    width: 30px;
+  height: 30px;
+  }
+  .profile{
+    width: 30px;
+  height: 30px;
   }

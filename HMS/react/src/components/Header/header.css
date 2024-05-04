@@ -41,6 +41,7 @@ body {
   }
   .nav-list li{
     margin-left: 50px;
+    color: aliceblue;
   }
   .calendar{
     width: 30px;

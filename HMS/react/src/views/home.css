@@ -5,4 +5,48 @@ body {
   }
   .left-nav li{
     margin: 40px;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+  }
+
+  .img{
+    margin-right: 10px;
+  }
+
+  .small-box {
+    width: 920px;
+    height: 350px;
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    background-color: rgb(71, 71, 71);
+    color: aliceblue;
+  }
+  
+  .boxone{
+    width: 275px;
+    height: 275px;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .boxtwo{
+    width: 275px;
+    height: 275px;
+    position: absolute;
+    top: 50px;
+    left: 325px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .boxthree{
+    width: 275px;
+    height: 275px;
+    position: absolute;
+    top: 50px;
+    left: 620px;
+    background-color: rgb(0, 0, 0);
   }

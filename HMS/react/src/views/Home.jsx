@@ -72,15 +72,19 @@ export default function Home() {
         <span style={{ margin: '20px' }}>Fees Collection</span>
         <div className='secboxone'>
         <span style={{ margin: '20px' }}>Expected</span>
+        <span className='sectextone'>$52,00,000</span>
         </div>
         <div className='secboxtwo'>
         <span style={{ margin: '20px' }}>Collected</span>
+        <span className='sectexttwo'>$26,00,000</span>
         </div>
         <div className='secboxthree'>
         <span style={{ margin: '20px' }}>Remaining</span>
+        <span className='sectextthree'>$15,60,000</span>
         </div>
         <div className='secboxfour'>
         <span style={{ margin: '20px' }}>Overdue</span>
+        <span className='sectextfour'>$10,40,000</span>
         </div>
         </div>
    </div>

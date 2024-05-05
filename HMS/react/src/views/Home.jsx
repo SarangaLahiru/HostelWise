@@ -56,10 +56,34 @@ export default function Home() {
    <div className='mid-bar'>
         <div className='small-box'>
         <span style={{ margin: '20px' }}>Occupancy</span>
-        <div className='boxone'/>
-        <div className='boxtwo'/>
-        <div className='boxthree'/>
+        <div className='boxone'>
+        <span style={{ margin: '20px' }}>Hostal 1</span>
         </div>
+        <div className='boxtwo'>
+        <span style={{ margin: '20px' }}>Hostal 2</span>
+        </div>
+        <div className='boxthree'>
+        <span style={{ margin: '20px' }}>Hostal 3</span>
+        </div>
+
+        </div>
+        <div className='sec-bar'>
+        <div className='sec-box'>
+        <span style={{ margin: '20px' }}>Fees Collection</span>
+        <div className='secboxone'>
+        <span style={{ margin: '20px' }}>Expected</span>
+        </div>
+        <div className='secboxtwo'>
+        <span style={{ margin: '20px' }}>Collected</span>
+        </div>
+        <div className='secboxthree'>
+        <span style={{ margin: '20px' }}>Remaining</span>
+        </div>
+        <div className='secboxfour'>
+        <span style={{ margin: '20px' }}>Overdue</span>
+        </div>
+        </div>
+   </div>
    </div>
    </>
   );

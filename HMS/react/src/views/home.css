@@ -194,3 +194,29 @@ body {
     font-size: 30px;
     color: rgb(251, 243, 1);
   }
+
+  .color-container {
+    width: 175px;
+    height: 75px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+
+  .blue,
+  .yellow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+
+  .blue {
+    width: 75%;
+    background-color:rgb(12, 222, 250);
+  }
+  
+  .yellow {
+    width: 25%;
+    right: 0;
+    background-color: rgb(251, 243, 1);
+  }

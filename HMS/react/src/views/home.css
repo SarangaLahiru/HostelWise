@@ -50,3 +50,84 @@ body {
     left: 620px;
     background-color: rgb(0, 0, 0);
   }
+
+  .sec-box {
+    width: 920px;
+    height: 325px;
+    position: absolute;
+    top: 600px;
+    left: 350px;
+    background-color: rgb(71, 71, 71);
+    color: aliceblue;
+  }
+  
+  .secboxone{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 275px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .secboxtwo{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 180px;
+    left: 275px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .secboxthree{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .secboxfour{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 180px;
+    left: 600px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .sectextone{
+    position: absolute;
+    top: 35px;
+    right: 90px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .sectexttwo{
+    position: absolute;
+    top: 35px;
+    right: 90px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(12, 222, 250);
+  }
+
+  .sectextthree{
+    position: absolute;
+    top: 35px;
+    right: 90px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(251, 243, 1);
+  }
+
+  .sectextfour{
+    position: absolute;
+    top: 35px;
+    right: 90px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(250, 12, 234);
+  }

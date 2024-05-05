@@ -29,9 +29,9 @@ body {
   }
   .left-bar {
     background-color: rgb(71, 71, 71);
-    height: 900px; 
+    height: 650px; 
     width: 250px;
-    position: fixed; 
+    position: absolute;
     top: 150px;
     left: 10px;
     z-index: 1000; 

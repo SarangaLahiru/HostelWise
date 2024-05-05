@@ -134,7 +134,7 @@ body {
 
   .last-box {
     width: 920px;
-    height: 350px;
+    height: 150px;
     position: absolute;
     top: 975px;
     left: 350px;
@@ -143,28 +143,54 @@ body {
   }
 
   .lstboxone{
-    width: 275px;
-    height: 275px;
+    width: 175px;
+    height: 75px;
     position: absolute;
     top: 50px;
-    left: 30px;
+    left: 300px;
     background-color: rgb(0, 0, 0);
   }
 
   .lstboxtwo{
-    width: 275px;
-    height: 275px;
+    width: 175px;
+    height: 75px;
     position: absolute;
     top: 50px;
-    left: 325px;
+    left: 500px;
     background-color: rgb(0, 0, 0);
   }
 
   .lstboxthree{
-    width: 275px;
-    height: 275px;
+    width: 175px;
+    height: 75px;
     position: absolute;
     top: 50px;
-    left: 620px;
+    left: 700px;
     background-color: rgb(0, 0, 0);
+  }
+
+  .lsttextone{
+    position: absolute;
+    top: 20px;
+    right: 65px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .lsttexttwo{
+    position: absolute;
+    top: 20px;
+    right: 65px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(12, 222, 250);
+  }
+
+  .lsttextthree{
+    position: absolute;
+    top: 20px;
+    right: 65px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(251, 243, 1);
   }

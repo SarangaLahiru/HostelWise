@@ -93,7 +93,10 @@ export default function Home() {
         <div className='last-box'>
         
         <span style={{ margin: '20px' }}>Complaints</span>
-        
+        <div className='color-container'>
+        <div class="blue"/>
+        <div class="yellow"/>
+        </div>
         <div className='lstboxone'>
         <span style={{ margin: '20px' }}>Total</span>
         <span className='lsttextone'>158</span>

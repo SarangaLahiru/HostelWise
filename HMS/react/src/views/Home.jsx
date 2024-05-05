@@ -53,7 +53,7 @@ export default function Home() {
     </li>
      </ul>
    </div>
-   <div className='mid-bar'>
+        <div className='mid-bar'>
         <div className='small-box'>
         <span style={{ margin: '20px' }}>Occupancy</span>
         <div className='boxone'>
@@ -65,7 +65,7 @@ export default function Home() {
         <div className='boxthree'>
         <span style={{ margin: '20px' }}>Hostal 3</span>
         </div>
-
+        </div>
         </div>
         <div className='sec-bar'>
         <div className='sec-box'>
@@ -87,7 +87,21 @@ export default function Home() {
         <span className='sectextfour'>$10,40,000</span>
         </div>
         </div>
-   </div>
+        <div className='final-bar'>
+        <div className='last-box'>
+        <span style={{ margin: '20px' }}>Complaints</span>
+        <div className='lstboxone'>
+        <span style={{ margin: '20px' }}>Total</span>
+        </div>
+        <div className='lstboxtwo'>
+        <span style={{ margin: '20px' }}>Resolved</span>
+        </div>
+        <div className='lstboxthree'>
+        <span style={{ margin: '20px' }}>Open</span>
+        </div>
+        </div>
+        </div>
+   
    </div>
    </>
   );

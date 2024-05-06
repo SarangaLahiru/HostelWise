@@ -111,7 +111,9 @@ export default function Home() {
         </div>
         </div>
         </div>
-   
+   <div className='right-bar'>
+    <span className='first-text'>Student Update</span>
+   </div>
    </div>
    </>
   );

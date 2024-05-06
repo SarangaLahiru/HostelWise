@@ -8,6 +8,7 @@ import meals from '../assets/meals.png';
 import users from '../assets/users.png';
 import stack from '../assets/stack.png';
 import student from '../assets/student.png';
+import profilegirl from '../assets/profilegirl.png';
 import midimg from '../assets/midimg.png';
 
 
@@ -111,10 +112,14 @@ export default function Home() {
         </div>
         </div>
         </div>
+   </div>
    <div className='right-bar'>
-    <span className='first-text'>Student Update</span>
-   </div>
-   </div>
+  <span className='first-text'>Student Update</span>
+  <div className='rgtboxone'>
+    <img src={profilegirl} alt="profilegirl Image" className='profile-image' />
+    <span className='profile-text'>Sara Leon</span>
+  </div>
+</div>
    </>
   );
 }

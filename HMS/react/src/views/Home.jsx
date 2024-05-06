@@ -8,6 +8,7 @@ import meals from '../assets/meals.png';
 import users from '../assets/users.png';
 import stack from '../assets/stack.png';
 import student from '../assets/student.png';
+import emergency from '../assets/emergency.png';
 import profilegirl from '../assets/profilegirl.png';
 import midimg from '../assets/midimg.png';
 
@@ -120,6 +121,9 @@ export default function Home() {
     <span className='profile-text'>Sara Leon</span>
   </div>
 </div>
-   </>
+    <img src={emergency} alt="emergency Image" className='emergency-image' />
+    <span className='dwn-text'>Press only in Case of<br/> Emergency</span>
+    <div class="emergency-box">Emergency</div>
+</>
   );
 }

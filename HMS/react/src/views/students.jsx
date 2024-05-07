@@ -7,6 +7,9 @@ import complain from '../assets/complain.png';
 import meals from '../assets/meals.png';
 import users from '../assets/users.png';
 import stack from '../assets/stack.png';
+import search from '../assets/search.png';
+import lines from '../assets/lines.png';
+
 
 function Students() {
   return (
@@ -51,7 +54,6 @@ function Students() {
    </div>
    <div className='mid-bar'>
         <div className='small-box'>
-       
         <div className='boxone'>
         <span style={{ margin: '20px' }}>Total Students</span>
         <span className='tex-one'>3569</span>
@@ -76,6 +78,22 @@ function Students() {
         <span style={{ margin: '20px' }}>Fees Defaulters</span>
         <span className='tex-six'>150</span>
         <dev className='view-box'><span className='view-text'>View List</span></dev>
+        </div>
+        </div>
+        </div>
+
+        <div className='filter-bar'>
+        <div className='top-box'>
+       
+        <span className='std-text'>Students</span>
+        <div className='stdone'>
+        <span className='std-one'>Search...</span>
+        </div>
+        <div className='stdtwo'>
+        <span className='std-two'>Filter</span>
+        </div>
+        <div className='stdthree'>
+        <span className='std-three'>John Westwood</span>
         </div>
         </div>
         </div>

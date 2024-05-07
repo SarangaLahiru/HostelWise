@@ -12,7 +12,7 @@ body {
 
   .small-box {
     width: 920px;
-    height: 350px;
+    height: 250px;
     position: absolute;
     top: 200px;
     left: 350px;
@@ -21,31 +21,131 @@ body {
   }
   
   .boxone{
-    width: 275px;
-    height: 275px;
+    width: 175px;
+    height: 75px;
     position: absolute;
-    top: 50px;
+    top: 30px;
     left: 30px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
   }
 
   .boxtwo{
-    width: 275px;
-    height: 275px;
+    width: 175px;
+    height: 75px;
     position: absolute;
-    top: 50px;
-    left: 325px;
+    top: 30px;
+    left: 240px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
   }
 
   .boxthree{
-    width: 275px;
-    height: 275px;
+    width: 175px;
+    height: 75px;
     position: absolute;
-    top: 50px;
-    left: 620px;
+    top: 30px;
+    left: 450px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
+  }
+
+  .boxfour{
+    width: 175px;
+    height: 75px;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+  }
+
+  .boxfive{
+    width: 175px;
+    height: 75px;
+    position: absolute;
+    top: 150px;
+    left: 240px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+  }
+
+  .boxsix{
+    width: 175px;
+    height: 190px;
+    position: absolute;
+    top: 30px;
+    left: 670px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+  }
+
+  .tex-one{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .tex-two{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(12, 222, 250);
+  }
+
+  .tex-three{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(131, 131, 131);
+  }
+
+  .tex-four{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(250, 12, 234);
+  }
+
+  .tex-five{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(250, 12, 12);
+  }
+
+  .tex-six{
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(251, 243, 1);
+  }
+
+  .view-box {
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    background-color: rgb(71, 71, 71);
+    color: aliceblue;
+    border-radius: 15px;
+  }
+
+  .view-text{
+    position: absolute;
+    top: 13px;
+    left: 30px;
   }

@@ -51,15 +51,31 @@ function Students() {
    </div>
    <div className='mid-bar'>
         <div className='small-box'>
-        <span style={{ margin: '20px' }}>Occupancy</span>
+       
         <div className='boxone'>
-        <span style={{ margin: '20px' }}>Hostal 1</span>
+        <span style={{ margin: '20px' }}>Total Students</span>
+        <span className='tex-one'>3569</span>
         </div>
         <div className='boxtwo'>
-        <span style={{ margin: '20px' }}>Hostal 2</span>
+        <span style={{ margin: '20px' }}>In Hostel</span>
+        <span className='tex-two'>1569</span>
         </div>
         <div className='boxthree'>
-        <span style={{ margin: '20px' }}>Hostal 3</span>
+        <span style={{ margin: '20px' }}>Outside Hostel</span>
+        <span className='tex-three'>2500</span>
+        </div>
+        <div className='boxfour'>
+        <span style={{ margin: '20px' }}>Students Assigned</span>
+        <span className='tex-four'>2569</span>
+        </div>
+        <div className='boxfive'>
+        <span style={{ margin: '20px' }}>Students Removed</span>
+        <span className='tex-five'>1000</span>
+        </div>
+        <div className='boxsix'>
+        <span style={{ margin: '20px' }}>Fees Defaulters</span>
+        <span className='tex-six'>150</span>
+        <dev className='view-box'><span className='view-text'>View List</span></dev>
         </div>
         </div>
         </div>

@@ -271,13 +271,13 @@ body {
     height: 150px;
     position: absolute;
     top: 825px;
-    right: 50px;
+    left: 1325px;
   }
 
   .dwn-text{
     position: absolute;
     top: 975px;
-    right: 40px;
+    left: 1310px;
     font-size: 20px;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -291,7 +291,7 @@ body {
   text-align: center;
   position: absolute;
   top: 1040px;
-  right: 30px;
+  left: 1300px;
   line-height: 70px;
   font-weight: bold;
   font-size: 20px;

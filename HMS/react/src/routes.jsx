@@ -7,6 +7,8 @@ import Register from "./views/register";
 import AdminLayout from "./components/AdminLayout";
 import Admin from "./views/admin";
 import Home from "./views/Home";
+import Students from "./views/students";
+
 
 const router=createBrowserRouter([
     {
@@ -24,6 +26,10 @@ const router=createBrowserRouter([
             {
                 path: '/home',
                 element: <Home/>
+            },
+            {
+                path: '/students',
+                element: <Students/>
             },
 
         ]

@@ -151,7 +151,7 @@ body {
   }
 
   .top-box {
-    width: 520px;
+    width: 450px;
     height: 250px;
     position: absolute;
     top: 500px;
@@ -161,7 +161,7 @@ body {
   }
   
   .stdone{
-    width: 275px;
+    width: 200px;
     height: 75px;
     position: absolute;
     top: 50px;
@@ -175,13 +175,13 @@ body {
     height: 75px;
     position: absolute;
     top: 50px;
-    left: 320px;
+    left: 250px;
     background-color: rgb(91, 90, 90);
     border-radius: 15px;
   }
 
   .stdthree{
-    width: 470px;
+    width: 395px;
     height: 75px;
     position: absolute;
     top: 150px;
@@ -216,4 +216,79 @@ body {
     top: 10px;
     left: 30px;
     font-size: 20px;
+  }
+
+
+  .dtop-box {
+    width: 450px;
+    height: 550px;
+    position: absolute;
+    top: 500px;
+    left: 820px;
+    background-color: rgb(71, 71, 71);
+    color: aliceblue;
+  }
+
+  .dstdone{
+    width: 275px;
+    height: 75px;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+  }
+
+  .dstdtwo{
+    width: 175px;
+    height: 75px;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    background-color: rgb(91, 90, 90);
+    border-radius: 15px;
+  }
+
+  .dstdthree{
+    width: 395px;
+    height: 275px;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+  }
+
+  .dstd-one{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: 20px;
+  }
+
+  .dstd-two{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: 20px;
+  }
+
+  .dstd-three{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: 20px;
+  }
+
+  .dstd-text{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-size: 20px;
+  }
+
+  .dstd-four{
+    position: absolute;
+    top: 90px;
+    left: 40px;
   }

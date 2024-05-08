@@ -97,6 +97,23 @@ function Students() {
         </div>
         </div>
         </div>
+
+        <div className='default-bar'>
+        <div className='dtop-box'>
+       
+        <span className='std-text'>Default Students</span>
+        <div className='stdone'>
+        <span className='std-one'>Search...</span>
+        </div>
+        <div className='dstdtwo'>
+        <span className='dstd-two'>Filter</span>
+        </div>
+        <div className='dstdthree'>
+        <span className='dstd-three'>John Westwood</span>
+        <span className='dstd-four'>Broke 4 Test Tubes in Hostel Mess <br/> Fine: 1200$ &nbsp; &nbsp; &nbsp; &nbsp; 1 Nov 20222</span>
+        </div>
+        </div>
+        </div>
     </>
   );
 }

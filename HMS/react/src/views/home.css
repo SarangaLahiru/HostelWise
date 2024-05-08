@@ -14,7 +14,7 @@ body {
     margin-right: 10px;
   }
 
-  .small-box {
+  .tsmall-box {
     width: 920px;
     height: 350px;
     position: absolute;
@@ -24,7 +24,7 @@ body {
     color: aliceblue;
   }
   
-  .boxone{
+  .tboxone{
     width: 275px;
     height: 275px;
     position: absolute;
@@ -34,7 +34,7 @@ body {
     border-radius: 15px;
   }
 
-  .boxtwo{
+  .tboxtwo{
     width: 275px;
     height: 275px;
     position: absolute;
@@ -44,7 +44,7 @@ body {
     border-radius: 15px;
   }
 
-  .boxthree{
+  .tboxthree{
     width: 275px;
     height: 275px;
     position: absolute;

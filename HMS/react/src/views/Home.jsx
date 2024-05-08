@@ -56,15 +56,15 @@ export default function Home() {
      </ul>
    </div>
         <div className='mid-bar'>
-        <div className='small-box'>
+        <div className='tsmall-box'>
         <span style={{ margin: '20px' }}>Occupancy</span>
-        <div className='boxone'>
+        <div className='tboxone'>
         <span style={{ margin: '20px' }}>Hostal 1</span>
         </div>
-        <div className='boxtwo'>
+        <div className='tboxtwo'>
         <span style={{ margin: '20px' }}>Hostal 2</span>
         </div>
-        <div className='boxthree'>
+        <div className='tboxthree'>
         <span style={{ margin: '20px' }}>Hostal 3</span>
         </div>
         </div>

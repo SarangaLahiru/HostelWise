@@ -106,11 +106,17 @@ function Students() {
         <span className='std-one'>Search...</span>
         </div>
         <div className='dstdtwo'>
-        <span className='dstd-two'>Filter</span>
+        <span className='dstd-two'>+Add</span>
         </div>
         <div className='dstdthree'>
         <span className='dstd-three'>John Westwood</span>
         <span className='dstd-four'>Broke 4 Test Tubes in Hostel Mess <br/> Fine: 1200$ &nbsp; &nbsp; &nbsp; &nbsp; 1 Nov 20222</span>
+        <div className='remove'>
+        <span className='remove-text'>Remove Defaulter</span>
+        </div>
+        <div className='payment'>
+        <span className='payment-text'>Send Payment Link</span>
+        </div>
         </div>
         </div>
         </div>

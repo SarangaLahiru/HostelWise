@@ -2,15 +2,15 @@
 import React from 'react';
 import './rooms.css';
 import Header from '../components/Header/header';
-import homeanalyse from '../assets/homeanalyse.png';
-import complain from '../assets/complain.png';
-import meals from '../assets/meals.png';
+import hostal from '../assets/hostal.png';
+import assigned from '../assets/assigned.png';
+import furniture from '../assets/furniture.png';
 import users from '../assets/users.png';
 import stack from '../assets/stack.png';
-import student from '../assets/student.png';
+import beds from '../assets/beds.png';
 import emergency from '../assets/emergency.png';
 import profilegirl from '../assets/profilegirl.png';
-import midimg from '../assets/midimg.png';
+import occ from '../assets/occ.png';
 
 
  function Rooms() {
@@ -24,29 +24,29 @@ import midimg from '../assets/midimg.png';
         
      <li >
       
-     <img src={homeanalyse} alt="homeanalyse Image"/>
+     <img src={occ} alt="Occupancy Image"/>
       <span style={{ margin: '20px' }}>Occupancy</span>
       
     </li>
    
     <li>
 
-    <img src={student} alt="student Image"/>
+    <img src={hostal} alt="hostal Image"/>
       <span style={{ margin: '20px' }}>Hostels</span>
     </li>
     
     <li>
-    <img src={complain} alt="complain Image" />
+    <img src={beds} alt="beds Image" />
       <span style={{ margin: '20px' }}>Rooms</span>
     </li>
    
     <li>
-    <img src={stack} alt="stack Image"/>
+    <img src={assigned} alt="assigned Image"/>
       <span style={{ margin: '20px' }}>Assigned</span>
     </li>
 
     <li>
-    <img src={users} alt="users Image"/>
+    <img src={furniture} alt="furniture Image"/>
       <span style={{ margin: '20px' }}>Furniture</span>
     </li>
     

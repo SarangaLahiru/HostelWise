@@ -9,6 +9,8 @@ import users from '../assets/users.png';
 import stack from '../assets/stack.png';
 import search from '../assets/search.png';
 import lines from '../assets/lines.png';
+import profilegirl from '../assets/profilegirl.png';
+
 
 
 function Students() {
@@ -120,6 +122,19 @@ function Students() {
         </div>
         </div>
         </div>
+        <div className='remove1'>
+        <span className='remove1-text'>Remove Student</span>
+        </div>
+        <div className='payment1'>
+        <span className='payment1-text'>+Add Student</span>
+        </div>
+        <div className='std1-bar'>
+  <span className='first-text'>Student Update</span>
+  <div className='rgtboxone'>
+    <img src={profilegirl} alt="profilegirl Image" className='profile-image' />
+    <span className='profile-text'>Sara Leon</span>
+  </div>
+</div>
     </>
   );
 }

@@ -8,7 +8,7 @@ import AdminLayout from "./components/AdminLayout";
 import Admin from "./views/admin";
 import Home from "./views/Home";
 import Students from "./views/students";
-
+import Rooms from "./views/rooms";
 
 const router=createBrowserRouter([
     {
@@ -30,6 +30,10 @@ const router=createBrowserRouter([
             {
                 path: '/students',
                 element: <Students/>
+            },
+            {
+                path: '/rooms',
+                element: <Rooms/>
             },
 
         ]

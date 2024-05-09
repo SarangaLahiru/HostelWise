@@ -1,16 +1,13 @@
 import React from 'react';
 import './students.css';
 import Header from '../components/Header/header';
-import student from '../assets/student.png';
-import homeanalyse from '../assets/homeanalyse.png';
 import complain from '../assets/complain.png';
 import meals from '../assets/meals.png';
 import users from '../assets/users.png';
 import stack from '../assets/stack.png';
-import search from '../assets/search.png';
-import lines from '../assets/lines.png';
 import profilegirl from '../assets/profilegirl.png';
-
+import stgimage from '../assets/stgimage.png';
+import stganalytics from '../assets/stganalytics.png';
 
 
 function Students() {
@@ -23,14 +20,14 @@ function Students() {
         
      <li >
       
-     <img src={homeanalyse} alt="homeanalyse Image"/>
+     <img src={stganalytics} alt="stganalytics Image"/>
       <span style={{ margin: '20px' }}>Analytics</span>
       
     </li>
    
     <li>
 
-    <img src={student} alt="student Image"/>
+    <img src={stgimage} alt="stgimage Image"/>
       <span style={{ margin: '20px' }}>Students</span>
     </li>
     

@@ -51,39 +51,30 @@ import occ from '../assets/occ.png';
     </li>
     
      </ul>
+
    </div>
-        <div className='mid-bar'>
-        <div className='tsmall-box'>
-        <span style={{ margin: '20px' }}>Occupancy</span>
-        <div className='tboxone'>
+
+   <div className='stdone1'>
+        <span className='std-one1'>Search...</span>
+        </div>
+
+        <div className='sec-bar1'>
+        <div className='sec-box1'>
         <span style={{ margin: '20px' }}>Hostal 1</span>
+        <div className='secboxone1'>
+        <span className='sectextone1'>458</span>
         </div>
-        <div className='tboxtwo'>
-        <span style={{ margin: '20px' }}>Hostal 2</span>
-        </div>
-        <div className='tboxthree'>
-        <span style={{ margin: '20px' }}>Hostal 3</span>
-        </div>
-        </div>
-        </div>
-        <div className='sec-bar'>
-        <div className='sec-box'>
-        <span style={{ margin: '20px' }}>Fees Collection</span>
-        <div className='secboxone'>
-        <span style={{ margin: '20px' }}>Expected</span>
-        <span className='sectextone'>$52,00,000</span>
-        </div>
-        <div className='secboxtwo'>
+        <div className='secboxtwo1'>
         <span style={{ margin: '20px' }}>Collected</span>
-        <span className='sectexttwo'>$26,00,000</span>
+        <span className='sectexttwo1'>$26,00,000</span>
         </div>
-        <div className='secboxthree'>
+        <div className='secboxthree1'>
         <span style={{ margin: '20px' }}>Remaining</span>
-        <span className='sectextthree'>$15,60,000</span>
+        <span className='sectextthree1'>$15,60,000</span>
         </div>
-        <div className='secboxfour'>
+        <div className='secboxfour1'>
         <span style={{ margin: '20px' }}>Overdue</span>
-        <span className='sectextfour'>$10,40,000</span>
+        <span className='sectextfour1'>$10,40,000</span>
         </div>
         </div>
         <div className='final-bar'>

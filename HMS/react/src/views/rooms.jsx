@@ -11,6 +11,9 @@ import beds from '../assets/beds.png';
 import emergency from '../assets/emergency.png';
 import profilegirl from '../assets/profilegirl.png';
 import occ from '../assets/occ.png';
+import pinkbed from '../assets/pinkbed.png';
+import tissue from '../assets/tissue.png';
+import cooker from '../assets/cooker.png';
 
 
  function Rooms() {
@@ -62,20 +65,35 @@ import occ from '../assets/occ.png';
         <div className='sec-box1'>
         <span style={{ margin: '20px' }}>Hostal 1</span>
         <div className='secboxone1'>
+          <img src={pinkbed} alt="Bed Image" className='pinkbed'/>
         <span className='sectextone1'>458</span>
         </div>
         <div className='secboxtwo1'>
-        <span style={{ margin: '20px' }}>Collected</span>
-        <span className='sectexttwo1'>$26,00,000</span>
+        <img src={tissue} alt="Tissue Image" className='tissue'/>
+        <span className='sectexttwo1'>5</span>
         </div>
         <div className='secboxthree1'>
-        <span style={{ margin: '20px' }}>Remaining</span>
-        <span className='sectextthree1'>$15,60,000</span>
+        <img src={cooker} alt="Cooker Image" className='cooker'/>
+        <span className='sectextthree1'>15</span>
         </div>
         <div className='secboxfour1'>
-        <span style={{ margin: '20px' }}>Overdue</span>
-        <span className='sectextfour1'>$10,40,000</span>
+        <span className='secbox4'>Total Rooms</span>
+        <span className='sectextfour1'>458</span>
         </div>
+        <div className='secboxfive1'>
+        <span className='secbox4'>Occupied</span>
+        <span className='sectextfive1'>58</span>
+        </div>
+        <div className='secboxsix'>
+        <span className='secbox5'>Floors</span>
+        <span className='sectextsix'>3</span>
+        </div>
+
+        <div className='secboxseven'>
+        <span className='secbox4'>Students<span className='space'/></span>
+        <span className='sectextsix'>3</span>
+        </div>
+
         </div>
         <div className='final-bar'>
         

@@ -85,13 +85,13 @@ import cooker from '../assets/cooker.png';
         <span className='sectextfive1'>58</span>
         </div>
         <div className='secboxsix'>
-        <span className='secbox5'>Floors</span>
-        <span className='sectextsix'>3</span>
+        <span className='secbox4'>Floors</span>
+        <span className='sectextfour1'>3</span>
         </div>
 
         <div className='secboxseven'>
-        <span className='secbox4'>Students<span className='space'/></span>
-        <span className='sectextsix'>3</span>
+        <span className='secbox4'>Students<span className='space'/>In Hostal<span className='littlespace'/>Outside Hostal</span>
+        <span className='sectextsix'>6582<span className='space'/>1569<span className='littlespace1'/>2500</span>
         </div>
 
         </div>

@@ -5,11 +5,7 @@ import Header from '../components/Header/header';
 import hostal from '../assets/hostal.png';
 import assigned from '../assets/assigned.png';
 import furniture from '../assets/furniture.png';
-import users from '../assets/users.png';
-import stack from '../assets/stack.png';
 import beds from '../assets/beds.png';
-import emergency from '../assets/emergency.png';
-import profilegirl from '../assets/profilegirl.png';
 import occ from '../assets/occ.png';
 import pinkbed from '../assets/pinkbed.png';
 import tissue from '../assets/tissue.png';
@@ -94,42 +90,19 @@ import cooker from '../assets/cooker.png';
         <span className='sectextsix'>6582<span className='space'/>1569<span className='littlespace1'/>2500</span>
         </div>
 
+        <div className='furniture'>
+        <span className='secboxf'>Furniture</span>
+        <div className='secboxf1'><span className='secboxf2'>Ceiling Fans<span className='littlespace'></span>45</span></div>
+        <div className='secboxf21'><span className='secboxf2'>Center Table<span className='littlespace2'></span>45</span></div>
+        <div className='secboxf3'><span className='secboxf2'>Chairs<span className='littlespace3'></span>45</span></div>
+        <div className='secboxf4'><span className='secboxf2'>Refrigerator<span className='littlespace4'></span>45</span></div>
+        <div className='secboxf5'><span className='secboxf2'>Kettle<span className='littlespace5'></span>45</span></div>
         </div>
-        <div className='final-bar'>
-        
 
-        <div className='last-box'>
-        
-        <span style={{ margin: '20px' }}>Complaints</span>
-        <div className='color-container'>
-        <div class="blue"/>
-        <div class="yellow"/>
         </div>
-        <div className='lstboxone'>
-        <span style={{ margin: '20px' }}>Total</span>
-        <span className='lsttextone'>158</span>
-        </div>
-        <div className='lstboxtwo'>
-        <span style={{ margin: '20px' }}>Resolved</span>
-        <span className='lsttexttwo'>96</span>
-        </div>
-        <div className='lstboxthree'>
-        <span style={{ margin: '20px' }}>Open</span>
-        <span className='lsttextthree'>62</span>
-        </div>
-        </div>
-        </div>
+       
    </div>
-   <div className='right-bar'>
-  <span className='first-text'>Student Update</span>
-  <div className='rgtboxone'>
-    <img src={profilegirl} alt="profilegirl Image" className='profile-image' />
-    <span className='profile-text'>Sara Leon</span>
-  </div>
-</div>
-    <img src={emergency} alt="emergency Image" className='emergency-image' />
-    <span className='dwn-text'>Press only in Case of<br/> Emergency</span>
-    <div class="emergency-box">Emergency</div>
+
 </>
   );
 }

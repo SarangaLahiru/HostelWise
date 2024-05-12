@@ -6,7 +6,7 @@ body {
  
   .sec-box1 {
     width: 920px;
-    height: 325px;
+    height: 235px;
     position: absolute;
     top: 250px;
     left: 350px;
@@ -133,72 +133,6 @@ body {
     font-size: 15px;
   }
 
-  .last-box {
-    width: 920px;
-    height: 150px;
-    position: absolute;
-    top: 975px;
-    left: 350px;
-    background-color: rgb(71, 71, 71);
-    color: aliceblue;
-  }
-
-  .lstboxone{
-    width: 175px;
-    height: 75px;
-    position: absolute;
-    top: 50px;
-    left: 300px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 15px;
-  }
-
-  .lstboxtwo{
-    width: 175px;
-    height: 75px;
-    position: absolute;
-    top: 50px;
-    left: 500px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 15px;
-  }
-
-  .lstboxthree{
-    width: 175px;
-    height: 75px;
-    position: absolute;
-    top: 50px;
-    left: 700px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 15px;
-  }
-
-  .lsttextone{
-    position: absolute;
-    top: 20px;
-    right: 65px;
-    font-weight: bold;
-    font-size: 30px;
-  }
-
-  .lsttexttwo{
-    position: absolute;
-    top: 20px;
-    right: 65px;
-    font-weight: bold;
-    font-size: 30px;
-    color: rgb(12, 222, 250);
-  }
-
-  .lsttextthree{
-    position: absolute;
-    top: 20px;
-    right: 65px;
-    font-weight: bold;
-    font-size: 30px;
-    color: rgb(251, 243, 1);
-  }
-
   .right-bar {
     width: 230px;
     height: 600px;
@@ -207,30 +141,6 @@ body {
     left: 1280px;
     background-color: rgb(71, 71, 71);
     color: aliceblue;
-  }
-
-  .first-text{
-    margin: 20px;
-  }
-
-  .rgtboxone{
-    width: 200px;
-    height: 100px;
-    position: absolute;
-    top: 50px;
-    left: 17px;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    border-radius: 15px;
-  }
-
-  .dwn-text{
-    position: absolute;
-    top: 975px;
-    left: 1310px;
-    font-size: 20px;
-    text-align: center;
-    color: rgb(255, 255, 255);
   }
 
 .stdone1{
@@ -286,4 +196,95 @@ body {
 
 .littlespace1{
   margin-right: 90px;
+}
+
+.littlespace2{
+  margin-right: 75px;
+}
+
+.littlespace3{
+  margin-right: 116px;
+}
+
+.littlespace4{
+  margin-right: 80px;
+}
+
+.littlespace5{
+  margin-right: 120px;
+}
+
+.furniture{
+    width: 250px;
+    height: 190px;
+    position: absolute;
+    top: 20px;
+    left: 650px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.secboxf{
+  position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 15px;
+}
+
+.secboxf1{
+    width: 220px;
+    height: 25px;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 15px;
+}
+
+.secboxf21{
+  width: 220px;
+  height: 25px;
+  position: absolute;
+  top: 65px;
+  left: 15px;
+  background-color: rgb(71, 71, 71);
+  border-radius: 15px;
+}
+
+.secboxf3{
+  width: 220px;
+  height: 25px;
+  position: absolute;
+  top: 95px;
+  left: 15px;
+  background-color: rgb(71, 71, 71);
+  border-radius: 15px;
+}
+
+.secboxf4{
+  width: 220px;
+  height: 25px;
+  position: absolute;
+  top: 125px;
+  left: 15px;
+  background-color: rgb(71, 71, 71);
+  border-radius: 15px;
+}
+
+.secboxf5{
+  width: 220px;
+  height: 25px;
+  position: absolute;
+  top: 155px;
+  left: 15px;
+  background-color: rgb(71, 71, 71);
+  border-radius: 15px;
+}
+
+.secboxf2{
+  position: absolute;
+    top: 0px;
+    left: 10px;
+    font-size: 15px;
+    
 }

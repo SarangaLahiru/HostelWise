@@ -8,7 +8,6 @@ import meals from '../assets/meals.png';
 import profilegirl from '../assets/profilegirl.png';
 import stock from '../assets/stack.png';
 import student from '../assets/student.png';
-import Header from '../components/Header/header';
 import './home.css';
 
 
@@ -17,7 +16,6 @@ export default function Home() {
         <>
             <div className=''>
 
-                <Header className=" z-50" />
             </div>
 
 

@@ -1,69 +1,63 @@
+import { Dashboard, Room } from '@mui/icons-material';
 import React from 'react';
-import './header.css';
-import hmsimg from '../../assets/hmsimg.png';
-import dash from '../../assets/dash.png';
-import rooms from '../../assets/rooms.png';
-import attendance from '../../assets/attendance.png';
-import maintain from '../../assets/maintain.png';
-import account from '../../assets/account.png';
 import calendar from '../../assets/calendar.png';
+import hmsimg from '../../assets/hmsimg.png';
 import notification from '../../assets/notification.png';
 import profile from '../../assets/profile.png';
-import { Box } from '@mui/material';
+import './header.css';
 
 export default function Header() {
-  return (
-    <div>
-        <div className='image-container'>
-        <img src={hmsimg} alt="HMS Image"/>
-        <div className='box'>
-        <span style={{ marginLeft: '20px' }}></span>
-        <ul className="nav-list">
-        <li style={{ display: 'flex', alignItems: 'center' }}>
-      <img src={dash} alt="dash Image" style={{ marginRight: '10px' }} />
-      <span style={{ marginLeft: '20px' }}>Dashboard</span>
-    </li>
-   
-    <li style={{ display: 'flex', alignItems: 'center' }}>
-      <img src={rooms} alt="rooms Image" style={{ marginRight: '10px' }} />
-      <span style={{ marginLeft: '20px' }}>Rooms</span>
-    </li>
-    
-    <li style={{ display: 'flex', alignItems: 'center' }}>
-      <img src={attendance} alt="attendance Image" style={{ marginRight: '10px' }} />
-      <span style={{ marginLeft: '20px' }}>Attendance</span>
-    </li>
-   
-    <li style={{ display: 'flex', alignItems: 'center' }}>
-      <img src={maintain} alt="maintain Image" style={{ marginRight: '10px' }} />
-      <span style={{ marginLeft: '20px' }}>Accounts</span>
-    </li>
+    return (
+        <div className='fixed w-full z-50'>
+            <div className='-mt-5'>
+                <div className='image-container'>
+                    <img src={hmsimg} alt="HMS Image" />
+                    <div className='box h-8'>
+                        <span style={{ marginLeft: '20px' }}></span>
+                        <ul className="nav-list relative top-3">
+                            <li style={{ display: 'flex', alignItems: 'center' }}>
+                                <span className=' p-4 cursor-pointer' style={{ marginLeft: '20px' }}><Dashboard className='m-1' />Dashboard</span>
+                            </li>
 
-    <li style={{ display: 'flex', alignItems: 'center' }}>
-      <img src={account} alt="account Image" style={{ marginRight: '10px' }} />
-      <span style={{ marginLeft: '20px' }}>Maintenance</span>
-    </li>
-    <span style={{ marginLeft: '80px' }}></span>
-    <li style={{ display: 'flex', alignItems: 'center' }}>
-      <img src={calendar} alt="calendar Image" className='calendar' />
-      
-    </li>
+                            <li style={{ display: 'flex', alignItems: 'center' }}>
+                                <span className=' p-4 cursor-pointer' style={{ marginLeft: '20px' }}>< Room className='m-1' />Rooms</span>
+                            </li>
 
-    <li style={{ display: 'flex', alignItems: 'center' }}>
-      <img src={notification} alt="notification Image" className='notification'/>
-      
-    </li>
+                            <li style={{ display: 'flex', alignItems: 'center' }}>
+                                <span className=' p-4 cursor-pointer' style={{ marginLeft: '20px' }}>< Room className='m-1' />Attendence</span>
+                            </li>
 
-    <li style={{ display: 'flex', alignItems: 'center' }}>
-      <img src={profile} alt="profile Image" className='profile'/>
-      
-    </li>
-    </ul>
+                            <li style={{ display: 'flex', alignItems: 'center' }}>
+                                <span className=' p-4 cursor-pointer' style={{ marginLeft: '20px' }}>< Room className='m-1' />Accounts</span>
+                            </li>
+
+                            <li style={{ display: 'flex', alignItems: 'center' }}>
+                                <span className=' p-4 cursor-pointer' style={{ marginLeft: '20px' }}>< Room className='m-1' />Maintains</span>
+                            </li>
+
+                            <div className="box1 flex ml-20">
+                                <li style={{ display: 'flex', alignItems: 'center' }}>
+                                    <img src={calendar} alt="calendar Image" className='calendar' />
+
+                                </li>
+
+                                <li style={{ display: 'flex', alignItems: 'center' }}>
+                                    <img src={notification} alt="notification Image" className='notification' />
+
+                                </li>
+
+                                <li style={{ display: 'flex', alignItems: 'center' }}>
+                                    <img src={profile} alt="profile Image" className='profile' />
+
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
         </div>
-      </div>
-     
-     
-      </div>
-    
-  );
+
+    );
 }

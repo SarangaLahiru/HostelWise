@@ -74,7 +74,7 @@ export default function StudentList() {
                             <td className="px-6 py-4 whitespace-nowrap">{u.email}</td>
                             <td className="px-6 py-4 whitespace-nowrap">{u.created_at}</td>
                             <td className="px-6 py-4 whitespace-nowrap">
-                                <Link to={'/users/' + u.id} className="text-indigo-50 rounded-lg bg-green-600 p-2 hover:text-green-900 mr-4">Edit</Link>
+                                <Link to={'/user/' + u.id} className="text-indigo-50 rounded-lg bg-green-600 p-2 hover:text-green-900 mr-4">Edit</Link>
                                 <button className="text-red-50 bg-red-600 p-2 rounded-lg hover:text-red-50" onClick={ev => onDeleteClick(u)}>Delete</button>
                             </td>
                         </tr>

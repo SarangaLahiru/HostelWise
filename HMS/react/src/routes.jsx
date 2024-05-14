@@ -3,6 +3,7 @@ import AdminLayout from "./components/AdminLayout";
 import DefaultLayout from "./components/DefaultLayout";
 import GuestLayout from "./components/GuestLayout";
 import Home from "./views/Home";
+import UpdateUser from "./views/UpdateUser";
 import Login from "./views/login";
 import Register from "./views/register";
 import Rooms from "./views/rooms";
@@ -69,6 +70,10 @@ const router = createBrowserRouter([
             {
                 path: '/studentList',
                 element: <StudentList />
+            },
+            {
+                path: '/user/:id',
+                element: <UpdateUser />
             },
 
         ]

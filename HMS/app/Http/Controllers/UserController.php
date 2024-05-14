@@ -9,71 +9,32 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    //
-     /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Resources\Json\AnonymousResourceCollection
-     */
     public function index()
     {
-        return UserResource::collection(User::query()->orderBy('id', 'desc')->paginate(10));
+        return UserResource::collection(User::all());
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param \App\Http\Requests\StoreUserRequest $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store()
+    public function store(Request $request)
     {
-        // $data = $request->validated();
-        // $data['password'] = bcrypt($data['password']);
-        // $user = User::create($data);
-
-        // return response(new UserResource($user) , 201);
+        $user = User::create($request->all());
+        return new UserResource($user);
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param \App\Models\User $user
-     * @return \Illuminate\Http\Response
-     */
     public function show(User $user)
     {
         return new UserResource($user);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param \App\Http\Requests\UpdateUserRequest $request
-     * @param \App\Models\User                     $user
-     * @return \Illuminate\Http\Response
-     */
-    public function update(UpdateUserRequest $request, User $user)
+    public function update(Request $request, User $user)
     {
-        $data = $request->validated();
-        if (isset($data['password'])) {
-            $data['password'] = bcrypt($data['password']);
-        }
-        $user->update($data);
-
+        $user->update($request->all());
         return new UserResource($user);
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param \App\Models\User $user
-     * @return \Illuminate\Http\Response
-     */
     public function destroy(User $user)
     {
         $user->delete();
-
-        return response("", 204);
+        return response()->json(null, 204);
     }
+
 }

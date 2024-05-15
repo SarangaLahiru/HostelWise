@@ -1,20 +1,20 @@
-
 body {
     background-color: rgb(33, 33, 33);
-    height: 100vh; 
-  }
-  .left-nav li{
+    height: 100vh;
+}
+
+.left-nav li {
     margin: 40px;
     display: flex;
     align-items: center;
     color: aliceblue;
-  }
+}
 
-  .img{
+.img {
     margin-right: 10px;
-  }
+}
 
-  .tsmall-box {
+.tsmall-box {
     width: 920px;
     height: 350px;
     position: absolute;
@@ -22,9 +22,9 @@ body {
     left: 350px;
     background-color: rgb(71, 71, 71);
     color: aliceblue;
-  }
-  
-  .tboxone{
+}
+
+.tboxone {
     width: 275px;
     height: 275px;
     position: absolute;
@@ -32,9 +32,9 @@ body {
     left: 30px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
-  }
+}
 
-  .tboxtwo{
+.tboxtwo {
     width: 275px;
     height: 275px;
     position: absolute;
@@ -42,9 +42,9 @@ body {
     left: 325px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
-  }
+}
 
-  .tboxthree{
+.tboxthree {
     width: 275px;
     height: 275px;
     position: absolute;
@@ -52,9 +52,9 @@ body {
     left: 620px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
-  }
+}
 
-  .sec-box {
+.sec-box {
     width: 920px;
     height: 325px;
     position: absolute;
@@ -62,9 +62,9 @@ body {
     left: 350px;
     background-color: rgb(71, 71, 71);
     color: aliceblue;
-  }
-  
-  .secboxone{
+}
+
+.secboxone {
     width: 300px;
     height: 100px;
     position: absolute;
@@ -72,9 +72,9 @@ body {
     left: 275px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
-  }
+}
 
-  .secboxtwo{
+.secboxtwo {
     width: 300px;
     height: 100px;
     position: absolute;
@@ -82,9 +82,9 @@ body {
     left: 275px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
-  }
+}
 
-  .secboxthree{
+.secboxthree {
     width: 300px;
     height: 100px;
     position: absolute;
@@ -92,9 +92,9 @@ body {
     left: 600px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
-  }
+}
 
-  .secboxfour{
+.secboxfour {
     width: 300px;
     height: 100px;
     position: absolute;
@@ -102,44 +102,44 @@ body {
     left: 600px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
-  }
+}
 
-  .sectextone{
+.sectextone {
     position: absolute;
     top: 35px;
     right: 90px;
     font-weight: bold;
     font-size: 30px;
-  }
+}
 
-  .sectexttwo{
+.sectexttwo {
     position: absolute;
     top: 35px;
     right: 90px;
     font-weight: bold;
     font-size: 30px;
     color: rgb(12, 222, 250);
-  }
+}
 
-  .sectextthree{
+.sectextthree {
     position: absolute;
     top: 35px;
     right: 90px;
     font-weight: bold;
     font-size: 30px;
     color: rgb(251, 243, 1);
-  }
+}
 
-  .sectextfour{
+.sectextfour {
     position: absolute;
     top: 35px;
     right: 90px;
     font-weight: bold;
     font-size: 30px;
     color: rgb(250, 12, 234);
-  }
+}
 
-  .last-box {
+.last-box {
     width: 920px;
     height: 150px;
     position: absolute;
@@ -147,9 +147,9 @@ body {
     left: 350px;
     background-color: rgb(71, 71, 71);
     color: aliceblue;
-  }
+}
 
-  .lstboxone{
+.lstboxone {
     width: 175px;
     height: 75px;
     position: absolute;
@@ -157,9 +157,9 @@ body {
     left: 300px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
-  }
+}
 
-  .lstboxtwo{
+.lstboxtwo {
     width: 175px;
     height: 75px;
     position: absolute;
@@ -167,9 +167,9 @@ body {
     left: 500px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
-  }
+}
 
-  .lstboxthree{
+.lstboxthree {
     width: 175px;
     height: 75px;
     position: absolute;
@@ -177,61 +177,61 @@ body {
     left: 700px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
-  }
+}
 
-  .lsttextone{
+.lsttextone {
     position: absolute;
     top: 20px;
     right: 65px;
     font-weight: bold;
     font-size: 30px;
-  }
+}
 
-  .lsttexttwo{
+.lsttexttwo {
     position: absolute;
     top: 20px;
     right: 65px;
     font-weight: bold;
     font-size: 30px;
     color: rgb(12, 222, 250);
-  }
+}
 
-  .lsttextthree{
+.lsttextthree {
     position: absolute;
     top: 20px;
     right: 65px;
     font-weight: bold;
     font-size: 30px;
     color: rgb(251, 243, 1);
-  }
+}
 
-  .color-container {
+.color-container {
     width: 175px;
     height: 75px;
     position: absolute;
     top: 50px;
     left: 50px;
-  }
+}
 
-  .blue,
-  .yellow {
+.blue,
+.yellow {
     position: absolute;
     top: 0;
     bottom: 0;
-  }
+}
 
-  .blue {
+.blue {
     width: 75%;
-    background-color:rgb(12, 222, 250);
-  }
-  
-  .yellow {
+    background-color: rgb(12, 222, 250);
+}
+
+.yellow {
     width: 25%;
     right: 0;
     background-color: rgb(251, 243, 1);
-  }
+}
 
-  .right-bar {
+.right-bar {
     width: 230px;
     height: 600px;
     position: absolute;
@@ -239,13 +239,13 @@ body {
     left: 1280px;
     background-color: rgb(71, 71, 71);
     color: aliceblue;
-  }
+}
 
-  .first-text{
+.first-text {
     margin: 20px;
-  }
+}
 
-  .rgtboxone{
+.rgtboxone {
     width: 200px;
     height: 100px;
     position: absolute;
@@ -254,46 +254,112 @@ body {
     background-color: rgb(0, 0, 0);
     display: flex;
     border-radius: 15px;
-  }
+}
 
-  .profile-image{
-    width: 75px;
-    height: 75px;
+.profile-image {
+    width: 50px;
+    height: 50px;
     margin: 10px;
-  }
+}
 
-  .profile-text{
+.profile-text {
     margin-top: 30px;
-  }
+}
 
-  .emergency-image{
+.emergency-image {
     width: 150px;
     height: 150px;
     position: absolute;
     top: 825px;
     left: 1325px;
-  }
+}
 
-  .dwn-text{
+.dwn-text {
     position: absolute;
     top: 975px;
     left: 1310px;
     font-size: 20px;
     text-align: center;
     color: rgb(255, 255, 255);
-  }
+}
 
 .emergency-box {
-  width: 200px;
-  height: 75px;
-  background-color: red;
-  color: white;
-  text-align: center;
-  position: absolute;
-  top: 1040px;
-  left: 1300px;
-  line-height: 70px;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 15px;
+    width: 200px;
+    height: 75px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 1040px;
+    left: 1300px;
+    line-height: 70px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.left-bar {
+    position: fixed;
+    top: 110px;
+    left: 10px;
+    height: 81vh;
+    border-radius: 12px;
+}
+
+.left-bar li {
+    line-height: 0.001em;
+    padding: 10px 50px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    left: -80px;
+}
+
+.left-bar li .list {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px 65px;
+    border-radius: 14px;
+
+
+}
+
+.left-bar li .list:hover {
+    background-color: #2E2E2E;
+
+}
+
+.mid-bar .tsmall-box {
+    background-color: #202020;
+    border-radius: 24px;
+    position: relative;
+    margin-left: -60px;
+    margin-top: -80px;
+}
+
+.sec-bar .sec-box {
+    background-color: #202020;
+    border-radius: 24px;
+    position: relative;
+    margin-left: -60px;
+    margin-top: -370px;
+}
+
+.final-bar .last-box {
+    background-color: #202020;
+    border-radius: 24px;
+    margin-left: -60px;
+    margin-top: -70px;
+}
+
+#right-bar {
+    background-color: #202020;
+    position: relative;
+    border-radius: 24px;
+    padding: 10px 5px;
+    margin-left: -55px;
+    margin-top: -305px;
+    width: 280px;
+
 }

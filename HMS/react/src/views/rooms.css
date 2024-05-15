@@ -1,10 +1,10 @@
-
 body {
-    background-color: rgb(33, 33, 33);
-    height: 100vh; 
-  }
- 
-  .sec-box1 {
+    background-color: black;
+    ;
+    height: 100vh;
+}
+
+.sec-box1 {
     width: 920px;
     height: 235px;
     position: absolute;
@@ -12,9 +12,9 @@ body {
     left: 350px;
     background-color: rgb(71, 71, 71);
     color: aliceblue;
-  }
-  
-  .secboxone1{
+}
+
+.secboxone1 {
     width: 100px;
     height: 50px;
     position: absolute;
@@ -22,9 +22,9 @@ body {
     left: 275px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
-  }
+}
 
-  .secboxtwo1{
+.secboxtwo1 {
     width: 100px;
     height: 50px;
     position: absolute;
@@ -32,9 +32,9 @@ body {
     left: 400px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
-  }
+}
 
-  .secboxthree1{
+.secboxthree1 {
     width: 100px;
     height: 50px;
     position: absolute;
@@ -42,9 +42,9 @@ body {
     left: 525px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
-  }
+}
 
-  .secboxfour1{
+.secboxfour1 {
     width: 100px;
     height: 50px;
     position: absolute;
@@ -52,9 +52,9 @@ body {
     left: 275px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
-  }
+}
 
-  .secboxfive1{
+.secboxfive1 {
     width: 100px;
     height: 50px;
     position: absolute;
@@ -62,9 +62,9 @@ body {
     left: 400px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
-  }
-  
-  .secboxsix{
+}
+
+.secboxsix {
     width: 100px;
     height: 50px;
     position: absolute;
@@ -72,9 +72,9 @@ body {
     left: 525px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
-  }
+}
 
-  .secboxseven{
+.secboxseven {
     width: 350px;
     height: 50px;
     position: absolute;
@@ -82,58 +82,59 @@ body {
     left: 275px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
-  }
+}
 
-  .sectextone1{
+.sectextone1 {
     position: absolute;
     top: 15px;
     right: 25px;
     font-weight: bold;
     font-size: 15px;
-  }
+}
 
-  .sectexttwo1{
+.sectexttwo1 {
     position: absolute;
     top: 15px;
     right: 25px;
     font-weight: bold;
     font-size: 15px;
-  }
+}
 
-  .sectextthree1{
+.sectextthree1 {
     position: absolute;
     top: 15px;
     right: 25px;
     font-weight: bold;
     font-size: 15px;
-  }
+}
 
-  .sectextfour1{
+.sectextfour1 {
     position: absolute;
     top: 20px;
     right: 40px;
     font-weight: bold;
     font-size: 15px;
-  }
+}
 
-  .sectextfive1{
+.sectextfive1 {
     position: absolute;
     top: 20px;
     right: 40px;
     font-weight: bold;
     font-size: 15px;
-    color: rgb(251, 243, 1);;
-  }
+    color: rgb(251, 243, 1);
+    ;
+}
 
-  .sectextsix{
+.sectextsix {
     position: absolute;
     top: 20px;
     left: 15px;
     font-weight: bold;
     font-size: 15px;
-  }
+}
 
-  .right-bar {
+.right-bar {
     width: 230px;
     height: 600px;
     position: absolute;
@@ -141,80 +142,80 @@ body {
     left: 1280px;
     background-color: rgb(71, 71, 71);
     color: aliceblue;
-  }
-
-.stdone1{
-  width: 600px;
-  height: 75px;
-  position: absolute;
-  top: 150px;
-  left: 350px;
-  background-color: rgb(0, 0, 0);
-  border-radius: 15px;
 }
 
-.std-one1{
-  position: absolute;
-  top: 25px;
-  left: 50px;
-  font-size: 20px;
-  color: aliceblue;
+.stdone1 {
+    width: 600px;
+    height: 75px;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
 }
 
-.pinkbed{
-  position: absolute;
-  top: 15px;
-  left: 12px;
+.std-one1 {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    font-size: 20px;
+    color: aliceblue;
 }
 
-.tissue{
-  position: absolute;
-  top: 10px;
-  left: 12px;
+.pinkbed {
+    position: absolute;
+    top: 15px;
+    left: 12px;
 }
 
-.cooker{
-  position: absolute;
-  top: 10px;
-  left: 12px;
+.tissue {
+    position: absolute;
+    top: 10px;
+    left: 12px;
 }
 
-.secbox4{
-  position: absolute;
-  top: 5px;
-  left: 12px;
-  font-size: 10px;
+.cooker {
+    position: absolute;
+    top: 10px;
+    left: 12px;
 }
 
-.space{
-  margin-right: 100px;
+.secbox4 {
+    position: absolute;
+    top: 5px;
+    left: 12px;
+    font-size: 10px;
 }
 
-.littlespace{
-  margin-right: 75px;
+.space {
+    margin-right: 100px;
 }
 
-.littlespace1{
-  margin-right: 90px;
+.littlespace {
+    margin-right: 75px;
 }
 
-.littlespace2{
-  margin-right: 75px;
+.littlespace1 {
+    margin-right: 90px;
 }
 
-.littlespace3{
-  margin-right: 116px;
+.littlespace2 {
+    margin-right: 75px;
 }
 
-.littlespace4{
-  margin-right: 80px;
+.littlespace3 {
+    margin-right: 116px;
 }
 
-.littlespace5{
-  margin-right: 120px;
+.littlespace4 {
+    margin-right: 80px;
 }
 
-.furniture{
+.littlespace5 {
+    margin-right: 120px;
+}
+
+.furniture {
     width: 250px;
     height: 190px;
     position: absolute;
@@ -224,14 +225,14 @@ body {
     border-radius: 15px;
 }
 
-.secboxf{
-  position: absolute;
+.secboxf {
+    position: absolute;
     top: 10px;
     left: 15px;
     font-size: 15px;
 }
 
-.secboxf1{
+.secboxf1 {
     width: 220px;
     height: 25px;
     position: absolute;
@@ -241,50 +242,50 @@ body {
     border-radius: 15px;
 }
 
-.secboxf21{
-  width: 220px;
-  height: 25px;
-  position: absolute;
-  top: 65px;
-  left: 15px;
-  background-color: rgb(71, 71, 71);
-  border-radius: 15px;
+.secboxf21 {
+    width: 220px;
+    height: 25px;
+    position: absolute;
+    top: 65px;
+    left: 15px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 15px;
 }
 
-.secboxf3{
-  width: 220px;
-  height: 25px;
-  position: absolute;
-  top: 95px;
-  left: 15px;
-  background-color: rgb(71, 71, 71);
-  border-radius: 15px;
+.secboxf3 {
+    width: 220px;
+    height: 25px;
+    position: absolute;
+    top: 95px;
+    left: 15px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 15px;
 }
 
-.secboxf4{
-  width: 220px;
-  height: 25px;
-  position: absolute;
-  top: 125px;
-  left: 15px;
-  background-color: rgb(71, 71, 71);
-  border-radius: 15px;
+.secboxf4 {
+    width: 220px;
+    height: 25px;
+    position: absolute;
+    top: 125px;
+    left: 15px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 15px;
 }
 
-.secboxf5{
-  width: 220px;
-  height: 25px;
-  position: absolute;
-  top: 155px;
-  left: 15px;
-  background-color: rgb(71, 71, 71);
-  border-radius: 15px;
+.secboxf5 {
+    width: 220px;
+    height: 25px;
+    position: absolute;
+    top: 155px;
+    left: 15px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 15px;
 }
 
-.secboxf2{
-  position: absolute;
+.secboxf2 {
+    position: absolute;
     top: 0px;
     left: 10px;
     font-size: 15px;
-    
+
 }

@@ -1,0 +1,291 @@
+body {
+    background-color: black;
+    ;
+    height: 100vh;
+}
+
+.sec-box1 {
+    width: 920px;
+    height: 235px;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    background-color: rgb(71, 71, 71);
+    color: aliceblue;
+}
+
+.secboxone1 {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 275px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.secboxtwo1 {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.secboxthree1 {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 525px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.secboxfour1 {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 90px;
+    left: 275px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.secboxfive1 {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 90px;
+    left: 400px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.secboxsix {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 90px;
+    left: 525px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.secboxseven {
+    width: 350px;
+    height: 50px;
+    position: absolute;
+    top: 160px;
+    left: 275px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.sectextone1 {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sectexttwo1 {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sectextthree1 {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sectextfour1 {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sectextfive1 {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(251, 243, 1);
+    ;
+}
+
+.sectextsix {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.right-bar {
+    width: 230px;
+    height: 600px;
+    position: absolute;
+    top: 200px;
+    left: 1280px;
+    background-color: rgb(71, 71, 71);
+    color: aliceblue;
+}
+
+.stdone1 {
+    width: 600px;
+    height: 75px;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.std-one1 {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.pinkbed {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+}
+
+.tissue {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+}
+
+.cooker {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+}
+
+.secbox4 {
+    position: absolute;
+    top: 5px;
+    left: 12px;
+    font-size: 10px;
+}
+
+.space {
+    margin-right: 100px;
+}
+
+.littlespace {
+    margin-right: 75px;
+}
+
+.littlespace1 {
+    margin-right: 90px;
+}
+
+.littlespace2 {
+    margin-right: 75px;
+}
+
+.littlespace3 {
+    margin-right: 116px;
+}
+
+.littlespace4 {
+    margin-right: 80px;
+}
+
+.littlespace5 {
+    margin-right: 120px;
+}
+
+.furniture {
+    width: 250px;
+    height: 190px;
+    position: absolute;
+    top: 20px;
+    left: 650px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.secboxf {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 15px;
+}
+
+.secboxf1 {
+    width: 220px;
+    height: 25px;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 15px;
+}
+
+.secboxf21 {
+    width: 220px;
+    height: 25px;
+    position: absolute;
+    top: 65px;
+    left: 15px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 15px;
+}
+
+.secboxf3 {
+    width: 220px;
+    height: 25px;
+    position: absolute;
+    top: 95px;
+    left: 15px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 15px;
+}
+
+.secboxf4 {
+    width: 220px;
+    height: 25px;
+    position: absolute;
+    top: 125px;
+    left: 15px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 15px;
+}
+
+.secboxf5 {
+    width: 220px;
+    height: 25px;
+    position: absolute;
+    top: 155px;
+    left: 15px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 15px;
+}
+
+.secboxf2 {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-size: 15px;
+
+}

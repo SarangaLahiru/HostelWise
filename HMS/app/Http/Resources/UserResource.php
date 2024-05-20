@@ -12,7 +12,7 @@ class UserResource extends JsonResource
      *
      * @return array<string, mixed>
      */
-    public function toArray(Request $request): array
+    public function toArray($request)
     {
         return [
             'id' => $this->id,
@@ -20,8 +20,11 @@ class UserResource extends JsonResource
             'email' => $this->email,
             'phone' => $this->phone,
             'registerNo' => $this->registerNo,
-            'address'=>$this->address,
-            'created_at' => $this->created_at->format('Y-m-d H:i:s'),
+            'address' => $this->address,
+            'Hostel_no' => $this->Hostel_no,
+            'image_url' => $this->image ? asset('storage/' . $this->image) : null,
+            'created_at' => $this->created_at,
+            'updated_at' => $this->updated_at,
         ];
     }
 }

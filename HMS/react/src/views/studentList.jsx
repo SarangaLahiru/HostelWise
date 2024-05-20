@@ -14,7 +14,7 @@ export default function StudentList() {
         axiosClient.get('/users')
             .then(({ data }) => {
                 console.log(data)
-                setUsers(data.data)
+                setUsers(data.users)
             })
             .catch((err) => {
                 console.log(err)

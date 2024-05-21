@@ -13,6 +13,7 @@ export default function UpdateUser() {
         phone: '',
         RegNo: '',
         address: '',
+        image: '',
     })
     if (id) {
         useEffect(() => {
@@ -26,9 +27,10 @@ export default function UpdateUser() {
                         phone: data.data.phone,
                         RegNo: data.data.registerNo,  // Use the correct key
                         address: data.data.address,
+                        image: data.data.image_url,
                     })
 
-                    console.log(user)
+                    console.log(user.image)
                 })
                 .catch((err) => {
                     console.log(err)
@@ -42,6 +44,7 @@ export default function UpdateUser() {
         axiosClient.put(`/users/${user.id}`, user)
             .then(() => {
                 console.log("success")
+                console.log(user.image)
                 toast.success("successfully update user details",
                     {
                         position: "top-right",
@@ -74,7 +77,7 @@ export default function UpdateUser() {
 
             <div className=" p-20 shadow-2xl shadow-zinc-600 flex box w-96 m-20 relative -left-20 top-10 p-10  rounded-2xl" style={{ width: "600px", backgroundColor: "#202020" }}>
                 <div className=' w-40 h-40 overflow-hidden '>
-                    <img className=' relative' src="https://img.freepik.com/premium-photo/young-student-person-isolated-background_1368-174554.jpg" alt="" />
+                    <img className=' relative' src={user.image} alt="" />
                 </div>
                 <div className="dis ml-10 text-white mt-2">
                     <h2 className=' text-3xl'>Student : {user.name}</h2>

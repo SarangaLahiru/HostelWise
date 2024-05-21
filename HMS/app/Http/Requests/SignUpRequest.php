@@ -28,6 +28,9 @@ class SignupRequest extends FormRequest
             'phone'=>['required'],
             'regNo'=>['required'],
             'address'=>['required'],
+            'Hostel_no'=>['required'],
+            'image' => ['required'],
+            'fees'=>['required'],
             'password' => [
                 'required',
                 Password::min(8)

@@ -1,61 +1,79 @@
 import { Navigate, createBrowserRouter } from "react-router-dom";
+import AdminLayout from "./components/AdminLayout";
 import DefaultLayout from "./components/DefaultLayout";
-import User from "./views/user";
 import GuestLayout from "./components/GuestLayout";
+import Home from "./views/Home";
+import UpdateUser from "./views/UpdateUser";
 import Login from "./views/login";
 import Register from "./views/register";
-import AdminLayout from "./components/AdminLayout";
-import Admin from "./views/admin";
-import Home from "./views/Home";
+import Rooms from "./views/rooms";
+import StudentList from "./views/studentList";
+import Students from "./views/students";
+import User from "./views/user";
 
-const router=createBrowserRouter([
+const router = createBrowserRouter([
     {
-        path:'/',
-        element:<DefaultLayout/>,
-        children:[
+        path: '/',
+        element: <DefaultLayout />,
+        children: [
             {
                 path: '/',
-                element:<Navigate to="/user"/>
+                element: <Navigate to="/user" />
             },
             {
                 path: '/user',
-                element: <User/>
+                element: <User />
+            },
+
+
+
+        ]
+
+    },
+    {
+        path: '/',
+        element: < GuestLayout />,
+        children: [
+            {
+                path: '/login',
+                element: <Login />
+            }
+
+
+        ]
+
+    },
+    {
+        path: '/',
+        element: <AdminLayout />,
+        children: [
+            {
+                path: '/admin',
+                element: < Home />
+            },
+            {
+                path: '/register',
+                element: <Register />
             },
             {
                 path: '/home',
-                element: <Home/>
-            },
-
-        ]
-
-    },
-    {
-        path:'/',
-        element:< GuestLayout/>,
-        children:[
-            {
-                path: '/login',
-                element: <Login/>
+                element: <Home />
             },
             {
-                path: '/register',
-                element: <Register/>
-            },
-
-        ]
-
-    },
-    {
-        path:'/',
-        element:<AdminLayout/>,
-        children:[
-            {
-                path: '/admin',
-                element: < Admin/>
+                path: '/students',
+                element: <Students />
             },
             {
-                path: '/register',
-                element: <Register/>
+                path: '/rooms',
+                element: <Rooms />
+            },
+            {
+                path: '/studentList',
+                element: <StudentList />
+            },
+            {
+                path: '/user/:id',
+                element: <UpdateUser />
             },
 
         ]

@@ -1,22 +1,24 @@
-import React from 'react'
-import { Navigate, Outlet } from 'react-router-dom'
-import { useStateContext } from '../context/ContextProvider'
+import React from 'react';
+import { Navigate, Outlet } from 'react-router-dom';
+import { useStateContext } from '../context/ContextProvider';
+import Header from './Header/header';
 
 export default function AdminLayout() {
-    const {token,role}=useStateContext();
+    const { token, role } = useStateContext();
 
-    if(!token){
-        return <Navigate to="/login"/>
+    if (!token) {
+        return <Navigate to="/login" />
     }
-    else if(role==='0'){
-        return <Navigate to='/user'/>
+    else if (role === '0') {
+        return <Navigate to='/user' />
     }
-  return (
-    <div>
+    return (
+        <div className=' bg-black' style={{ height: "150vh" }}>
+            <Header />
 
-        <h2>Admin</h2>
-        <Outlet/>
+            <h2>Admin</h2>
+            <Outlet />
 
-    </div>
-  )
+        </div>
+    )
 }

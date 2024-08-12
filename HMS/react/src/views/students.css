@@ -1,0 +1,378 @@
+
+body {
+    background-color: rgb(33, 33, 33);
+    height: 100vh; 
+  }
+  .left-nav li{
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+  }
+
+  .small-box {
+    width: 920px;
+    height: 250px;
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    background-color: rgb(71, 71, 71);
+    color: aliceblue;
+  }
+  
+  .boxone{
+    width: 175px;
+    height: 75px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+  }
+
+  .boxtwo{
+    width: 175px;
+    height: 75px;
+    position: absolute;
+    top: 30px;
+    left: 240px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+  }
+
+  .boxthree{
+    width: 175px;
+    height: 75px;
+    position: absolute;
+    top: 30px;
+    left: 450px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+  }
+
+  .boxfour{
+    width: 175px;
+    height: 75px;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+  }
+
+  .boxfive{
+    width: 175px;
+    height: 75px;
+    position: absolute;
+    top: 150px;
+    left: 240px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+  }
+
+  .boxsix{
+    width: 175px;
+    height: 190px;
+    position: absolute;
+    top: 30px;
+    left: 670px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+  }
+
+  .tex-one{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .tex-two{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(12, 222, 250);
+  }
+
+  .tex-three{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(131, 131, 131);
+  }
+
+  .tex-four{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(250, 12, 234);
+  }
+
+  .tex-five{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(250, 12, 12);
+  }
+
+  .tex-six{
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(251, 243, 1);
+  }
+
+  .view-box {
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    background-color: rgb(71, 71, 71);
+    color: aliceblue;
+    border-radius: 15px;
+  }
+
+  .view-text{
+    position: absolute;
+    top: 13px;
+    left: 30px;
+  }
+
+  .top-box {
+    width: 450px;
+    height: 250px;
+    position: absolute;
+    top: 500px;
+    left: 350px;
+    background-color: rgb(71, 71, 71);
+    color: aliceblue;
+  }
+  
+  .stdone{
+    width: 200px;
+    height: 75px;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+  }
+
+  .stdtwo{
+    width: 175px;
+    height: 75px;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    background-color: rgb(91, 90, 90);
+    border-radius: 15px;
+  }
+
+  .stdthree{
+    width: 395px;
+    height: 75px;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+  }
+
+  .std-one{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: 20px;
+  }
+
+  .std-two{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: 20px;
+  }
+
+  .std-three{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: 20px;
+  }
+
+  .std-text{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-size: 20px;
+  }
+
+
+  .dtop-box {
+    width: 450px;
+    height: 550px;
+    position: absolute;
+    top: 500px;
+    left: 820px;
+    background-color: rgb(71, 71, 71);
+    color: aliceblue;
+  }
+
+  .dstdone{
+    width: 275px;
+    height: 75px;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+  }
+
+  .dstdtwo{
+    width: 175px;
+    height: 75px;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    background-color:  rgb(12, 222, 250);
+    border-radius: 15px;
+  }
+
+  .dstdthree{
+    width: 395px;
+    height: 275px;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+  }
+
+  .dstd-one{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: 20px;
+  }
+
+  .dstd-two{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: 20px;
+    color: black;
+
+  }
+
+  .dstd-three{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: 20px;
+  }
+
+  .dstd-text{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-size: 20px;
+  }
+
+  .dstd-four{
+    position: absolute;
+    top: 90px;
+    left: 40px;
+  }
+
+  .remove{
+    width: 175px;
+    height: 50px;
+    position: absolute;
+    top: 175px;
+    left: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 2px solid red;
+  }
+
+  .remove-text{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    color: red;
+  }
+
+  .payment{
+    width: 175px;
+    height: 50px;
+    position: absolute;
+    top: 175px;
+    left: 200px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 2px solid rgb(12, 222, 250);
+  }
+
+  .payment-text{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    color: rgb(12, 222, 250);
+  }
+
+  .std1-bar {
+    width: 230px;
+    height: 550px;
+    position: absolute;
+    top: 500px;
+    left: 1280px;
+    background-color: rgb(71, 71, 71);
+    color: aliceblue;
+  }
+
+  .remove1{
+    width: 175px;
+    height: 50px;
+    position: absolute;
+    top: 350px;
+    left: 1315px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 2px solid red;
+  }
+
+  .remove1-text{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    color: red;
+  }
+
+  .payment1{
+    width: 175px;
+    height: 50px;
+    position: absolute;
+    top: 250px;
+    left: 1315px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 2px solid rgb(12, 222, 250);
+  }
+
+  .payment1-text{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    color: rgb(12, 222, 250);
+  }
